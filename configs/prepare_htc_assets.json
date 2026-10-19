@@ -1,0 +1,18 @@
+{
+  "id": "prepare_htc_assets",
+  "cwd": "baselines",
+  "pythonpath": [
+    "baselines",
+    "baselines/vendor"
+  ],
+  "environment": "HTC pinned environment",
+  "scope_note": "",
+  "argv": [
+    "{python}",
+    "prepare_neural_assets.py",
+    "--data-dir",
+    "{data_dir}",
+    "--model",
+    "{base_model}"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "prepare_htc",
+  "cwd": "baselines",
+  "pythonpath": [
+    "baselines",
+    "baselines/vendor"
+  ],
+  "environment": "HTC pinned environment",
+  "scope_note": "",
+  "argv": [
+    "{python}",
+    "prepare_esaw.py",
+    "--dataset",
+    "{dataset}",
+    "--taxonomy",
+    "{taxonomy}",
+    "--split-file",
+    "{split_file}",
+    "--output",
+    "{work_dir}/htc_data"
+  ]
+}

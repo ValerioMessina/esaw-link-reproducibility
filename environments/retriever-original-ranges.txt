@@ -1,0 +1,5 @@
+sentence-transformers>=2.7.0
+torch>=2.1.0
+accelerate>=1.1.0
+numpy>=1.23.0
+tqdm>=4.66.0

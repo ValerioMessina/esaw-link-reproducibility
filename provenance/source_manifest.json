@@ -1,0 +1,590 @@
+[
+  {
+    "path": "retriever/esaw_biencoder/__init__.py",
+    "category": "ESAW-Link shared encoder",
+    "sha256": "5f4eb7434d2e9fa21d8bd6b9cb44690403461f07a635cedf5b0cf39ea258ee4d",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/esaw_biencoder/build_taxonomy.py",
+    "category": "ESAW-Link shared encoder",
+    "sha256": "e16543aa2dd092d5e68f554f87cbaca4861c3ed094f07c47ce78c955a7074603",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/esaw_biencoder/data.py",
+    "category": "ESAW-Link shared encoder",
+    "sha256": "18454ac03f7bc953bb1028a668e6116ea92551c4afa1bd687ac580a7ca80fc4a",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/esaw_biencoder/evaluate.py",
+    "category": "ESAW-Link shared encoder",
+    "sha256": "e81589466f7e7b038e54c9c9d7d83212c2ac87e4da782c73b76b81406a266529",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/esaw_biencoder/label_holdout.py",
+    "category": "ESAW-Link shared encoder",
+    "sha256": "e1c847119db661735b23e0decd882492c20f8552043b8185e738c41f6309c605",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/esaw_biencoder/mine_hard_negatives.py",
+    "category": "ESAW-Link shared encoder",
+    "sha256": "ec482f80a76f4b8937e51a57511b3789b7a1dabc6a0dbf1735d83bc4b6a0adac",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/esaw_biencoder/predict.py",
+    "category": "ESAW-Link shared encoder",
+    "sha256": "f91eca85cbe0b961bc34d956c9c89b26418b9a93f64475a982067789f77299c0",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/esaw_biencoder/retrieval.py",
+    "category": "ESAW-Link shared encoder",
+    "sha256": "3234beae9da1dbe7e0f3ff919427b6927f580e9f9f0839e0dfab5fb95f2de45a",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/esaw_biencoder/schema.py",
+    "category": "ESAW-Link shared encoder",
+    "sha256": "1faff41b22a3b9ae9a4f0097b24ecabd78d61907a26e5259010b88a288fa16bd",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/esaw_biencoder/train.py",
+    "category": "ESAW-Link shared encoder",
+    "sha256": "7e1fd01ba41524357ec4f291a1109dfd85bf7fe3e4f0fcec0490b11012183620",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/audit_esaw_parallel.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "f760a72f49a82b06a6c37466f48ddb1835f4c678dfd293a39c7edf3cfdb7ce63",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/audit_esaw_with_openai.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "cafdc8ab08c9132e73464134ad4f101754691d2b727126266d184f5730c9630c",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/audit_labelwise_zero_shot_artifacts.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "5f1377ba2d6d30917f6b08f0fd5d52ec20a97d7719a2093d6dee06f3f88d8acb",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/benchmark_labelwise_zero_shot.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "40c80af03ec78f558a1babfe8f032dcc28c64c6d122c0bacc4a24433e2294799",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/benchmark_llm_rerank_once.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "61c69e7c6215d5b023651d9544c98dfa770e6f5ccd022c626e1251486878dcc9",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/benchmark_record_topks_once.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "d1295c84becf45ac96660e101b96823463f575b4138b272ec03d7811d4090b66",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/benchmark_topks_once.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "9fdf5391fd62581bee88139150acf31683f89fc39859450af3ca0d818451804d",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/benchmark_zero_shot.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "99f89779860304694f2980b08d5f1bc9d0d40e729bf14f403b5b2f1fece3cc42",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/canonical_audit.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "31d49c2fe69158ab04763b343482739a7703e604d2a878a4cbe988569f128a86",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/error_analysis_top10.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "6a9d4e9334b72e0e8b10d68d83e1201c2b7214587f572153b04abafec737fce0",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/evaluate_hierarchical_gold_noise.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "8539885fd23add1ce61937fbd910d6f011db3667e5b5301000a818589b952100",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/evaluate_llm_predictions_audited_hierarchical.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "2dc0772501b6bd47adad6d4c72e8550d47983b8d8f5a8f117550e7de13dbc4fa",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/four_source_exact8_gate.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "b70350fdeb9328ad00b31ec958e020f17072cc852b8aaee35992d5a7452ebf5c",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/generate_labelwise_zero_shot_split.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "8b66644779d6fec5fc8b3b1694bc5e18ecad6d0cda8e628a385fb79cee9ad273",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/knn_candidate_gate_experiment.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "9339fb13d95c90fd6e714121ff36cc05f02d7db8027aad1b8b2e196c4d830b75",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/multiclass_candidate_gate_experiment.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "a9c79fbe988817ebb0960d1943a0a48bdec6472fa378a8ac584001bdecc029f3",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/structured_candidate_gate_experiment.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "1b4c029e990959ed6f401c2a9d7324cb69c7e9d99493094f35c6df5bff647097",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/three_source_holdout_gate.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "e7d0b4d2d46d65f56fc4e4a060aaa01904c6f5742280530e01b256992b3a7024",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/train_meta_gate_exact8.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "a94253225ca8d02e0f1ca322152012f79fce90561225a216b889f3d9ddf1fd7f",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/verify_exact8_goal.py",
+    "category": "retrieval, reranking, audit and selection source",
+    "sha256": "efcb01b7c7a000e9b99f3c66eab2e84134ba8a23a7c92bbeafe466986caf96d7",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "environments/retriever-original-ranges.txt",
+    "category": "original unpinned dependency declarations",
+    "sha256": "cd5a12b0e5c9951f745ca5e463a3d781d7801a9b9c4680d96c0cd0a019c12a36",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "retriever/scripts/build_cross5_candidate_input.py",
+    "category": "candidate builder",
+    "sha256": "660b32b655da5912506f709265b56e0fb51f7894b6d7a5eac9d605867c1336f7",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_launchers/retriever/runpod_v5_qwen_mnrl_seq256_train_benchmark.sh",
+    "category": "historical launcher, not portable entry point",
+    "sha256": "03e7b293901d3fbbb84990afa271fb65f9cfe072bac60cf199b41257e891310d",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_launchers/retriever/runpod_v6_qwen_hardneg_train_benchmark.sh",
+    "category": "historical launcher, not portable entry point",
+    "sha256": "4dd5309378fd1ba18701fc6540c73adc77f470c7d16df09a0523ba82026df555",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_launchers/retriever/runpod_v6_qwen_hardneg8_ablation_train_benchmark.sh",
+    "category": "historical launcher, not portable entry point",
+    "sha256": "0bf4ac271dd09484e98e3d29ff635b9238c70bd3699ec0e4d08a9cf041c9a3ea",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_launchers/retriever/runpod_v6_qwen_randomneg_ablation_train_benchmark.sh",
+    "category": "historical launcher, not portable entry point",
+    "sha256": "52f3fd0de832fc3c94698d9e31a28abc223b8cfffbf2907ff8c0c5411e9fceb8",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/esaw_htc/__init__.py",
+    "category": "historical HTC adaptation",
+    "sha256": "6ccb85ad911edc90b6e1b5e13607f868d2a5e9175e05c7cea31b2b2f75919045",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/esaw_htc/common.py",
+    "category": "historical HTC adaptation",
+    "sha256": "02bc1e019a7e372a7c19415c1a82c73f3c6fc6bd4350b7710cd6cf18bef5a736",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/esaw_htc/hgclr_model.py",
+    "category": "historical HTC adaptation",
+    "sha256": "492531c33e7ebfe459858ef13e092a5455a3d47133536ab5f678b318c6582224",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/esaw_htc/htc_clip_model.py",
+    "category": "historical HTC adaptation",
+    "sha256": "a01581359593db46836a362de9ae862df6c57286444140a13b3797ccd9e1f2ca",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/esaw_htc/recent_models.py",
+    "category": "historical HTC adaptation",
+    "sha256": "cd84dc8696b6225faa7124bd33aa2b25aff1471141826091bfb341ae7adf6a1c",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/esaw_htc/soft_verbalizer.py",
+    "category": "historical HTC adaptation",
+    "sha256": "d63a1d47533e7013e1c4203dd46ed9c42b5bbb03c9142e20efe574515dc5b38c",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/prepare_esaw.py",
+    "category": "HTC preparation, training and verification",
+    "sha256": "9dc1bcc4dd6c4f249326c6f2b72d8844580fea230da4586bca224f669ec94e06",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/prepare_neural_assets.py",
+    "category": "HTC preparation, training and verification",
+    "sha256": "2e716991ddd15593669852ccd486da6fc56680811f0b29916b57affe9519a042",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/train_htc_clip.py",
+    "category": "HTC preparation, training and verification",
+    "sha256": "db2aeddb309a209b6a0b05f722102ad69d9f4e8e9489cb99734af6d21c2841af",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/train_recent_htc.py",
+    "category": "HTC preparation, training and verification",
+    "sha256": "6aae8932c127bc22b55c89aa8cec96042132f8cd250c031a201057e74f16120a",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/aggregate_runs.py",
+    "category": "HTC preparation, training and verification",
+    "sha256": "58565d826e1f8343ecf71d02dd7c5beef65000b0eceb0af4d9d6875bea84f540",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/select_tuning_result.py",
+    "category": "HTC preparation, training and verification",
+    "sha256": "fa75706084bdcf3b713cb0d116848974350979ead5e836367e6fba5a22918a5d",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/check_htc_clip_equations.py",
+    "category": "HTC preparation, training and verification",
+    "sha256": "ba618ad1d6d9225e8d0edddaf4cf4c967a63c7b171309ae7a6121fc5959b84b8",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/check_hyilr_optimization.py",
+    "category": "HTC preparation, training and verification",
+    "sha256": "114b9050ec40a4ae4ba018252f1b661cdf97058f577273e4d51a4f753ab8a05d",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "environments/htc-cuda.txt",
+    "category": "HTC pinned environment",
+    "sha256": "02be87b6fdefd99e1f3f5c7e32536ff0ff6cb42819ec255f9923fdad23ba2301",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_launchers/baselines/runpod_esaw_hisr_benchmark.sh",
+    "category": "historical launcher, not portable entry point",
+    "sha256": "c401d827125c852f03aa7ad45c15769ad8111f7020b984d490a57a89a00772d7",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_launchers/baselines/runpod_esaw_hyilr_benchmark.sh",
+    "category": "historical launcher, not portable entry point",
+    "sha256": "5b6c83b9dcb91ee9833b7bd80046fef4ae1c7fc205077a5187f5d296159c70f0",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_launchers/baselines/runpod_esaw_htc_clip_benchmark.sh",
+    "category": "historical launcher, not portable entry point",
+    "sha256": "18e1bfb073bac3908e83bfacbb10a2598fcab45713bf02a1211001d46d7d51bf",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_launchers/baselines/runpod_runner_common.sh",
+    "category": "historical launcher, not portable entry point",
+    "sha256": "cc78543355c2a714d6fc754ac91cb235e4585e588e645af9d0a0b7f3aeb9384f",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/vendor/model/contrast.py",
+    "category": "HGCLR author dependency",
+    "sha256": "636c771749b4462bb2f859ecd997c5de5d6bc72d1d8e5f1e2dc85afe9db9983d",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/vendor/model/graph.py",
+    "category": "HGCLR author dependency",
+    "sha256": "6828cb1cdde946579ab693d2eb0e27af3340f659386f760e5272ba7a7b52ee43",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/vendor/model/optim.py",
+    "category": "HGCLR author dependency",
+    "sha256": "724c945ea1a2a675783b3dcc6c11d6d987eb5d6e42fcb3813aa06f74e361d151",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/vendor/LICENSE",
+    "category": "upstream license",
+    "sha256": "4545dea35c8201973b01aafd837704459013b8530ccd53fddfff45808d44fc5c",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/hgclr_verified/vendor/model/__init__.py",
+    "category": "HGCLR author dependency",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/hgclr_verified/vendor/model/contrast.py",
+    "category": "HGCLR author dependency",
+    "sha256": "636c771749b4462bb2f859ecd997c5de5d6bc72d1d8e5f1e2dc85afe9db9983d",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/hgclr_verified/vendor/model/graph.py",
+    "category": "HGCLR author dependency",
+    "sha256": "6828cb1cdde946579ab693d2eb0e27af3340f659386f760e5272ba7a7b52ee43",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/hgclr_verified/vendor/model/optim.py",
+    "category": "HGCLR author dependency",
+    "sha256": "724c945ea1a2a675783b3dcc6c11d6d987eb5d6e42fcb3813aa06f74e361d151",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/hgclr_verified/vendor/LICENSE",
+    "category": "upstream license",
+    "sha256": "4545dea35c8201973b01aafd837704459013b8530ccd53fddfff45808d44fc5c",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/hgclr_verified/train_verified.py",
+    "category": "corrected and gated HGCLR implementation",
+    "sha256": "5f9cb3b97e6fc482f21d41a7c61168e88a513d135046e1f21cfd5d2cc5f67efe",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/hgclr_verified/metrics.py",
+    "category": "corrected and gated HGCLR implementation",
+    "sha256": "db1f993d32cb1f6b77106911048a926eb4381168cfde959ecf7d2cc211d44a11",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/hgclr_verified/check_faithful_dropout.py",
+    "category": "corrected and gated HGCLR implementation",
+    "sha256": "5021279b4104809fafa9ac123c0c3e4fb399449a94223312a633768d64631f90",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/hgclr_verified/esaw_htc/__init__.py",
+    "category": "corrected HGCLR implementation",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/hgclr_verified/esaw_htc/common.py",
+    "category": "corrected HGCLR implementation",
+    "sha256": "02bc1e019a7e372a7c19415c1a82c73f3c6fc6bd4350b7710cd6cf18bef5a736",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/hgclr_verified/esaw_htc/hgclr_model.py",
+    "category": "corrected HGCLR implementation",
+    "sha256": "88bb99f445fb607d46a40106d8a86381e3c683dcc446ef0af1188ae7bebc22a8",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "baselines/hgclr_verified/configs/protocol.json",
+    "category": "frozen five-seed protocol",
+    "sha256": "f3807dbbec0ed0fec2ccb56097cf4b2bc5416a0b708d06e645c7b6eb5b6e91a4",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "environments/hgclr-cuda.txt",
+    "category": "HGCLR environment",
+    "sha256": "ad4f7bd82100bbba4603704a0bd89b07392fd01e4621eadd2774eb5d609102a7",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "experiments/flat_qwen/train_flat.py",
+    "category": "budget-limited flat control source",
+    "sha256": "bc3010dd34bc6039cf818e8e221d51c49f21ba8c1ca274f908955d9239836ecb",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "experiments/f06/verify_mnrl_explicit_negatives.py",
+    "category": "API smoke only; not a completed ablation",
+    "sha256": "dbeca2d0f64ed21a790ac4f0709befd70fdd81e26db6c30cc20f9bbd808fa9a7",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/audit_canonical/recompute.py",
+    "category": "artifact-bound verification, not portable",
+    "sha256": "96b2de07a6720fb6ed1e79f58fc9293a9b6fee62cbd8721997bf649006c871d4",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/audit_canonical/recompute_secondary.py",
+    "category": "artifact-bound verification, not portable",
+    "sha256": "4b5375466d49ccbf2823aebe1d289fc2399df9b727ec80d45dc1c13b641624ad",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/audit_canonical/verify_results.py",
+    "category": "artifact-bound verification, not portable",
+    "sha256": "26800547122e5463fd1131f41925cd0cd681746ea31bb94fccb5d6fd55b51979",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/checkpoint_decoder/run_decoders.py",
+    "category": "artifact-bound verification, not portable",
+    "sha256": "f98e7f2514bab11546e97665cfea6bd8b230f1c8b5390b4dfe6a6c4145dde4b0",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/checkpoint_decoder/verify_exports.py",
+    "category": "artifact-bound verification, not portable",
+    "sha256": "7581a3a6c79b03b9431baf70f42d45144eeec62bdaf38b8e55e3e4f1bee654dd",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/checkpoint_decoder/run_final_phase1_full.py",
+    "category": "artifact-bound verification, not portable",
+    "sha256": "337fc187c6e93e3262b0f0cff4b4dbdea8ec7a23d763b27dbd8ccf45c981a71b",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/checkpoint_decoder/verify_final_phase1_export.py",
+    "category": "artifact-bound verification, not portable",
+    "sha256": "24e0728eee28e67a06efda764ccfc9cafaec5a089b6a9f0f5d38777a07f87e08",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/checkpoint_decoder/overlap_sensitivity.py",
+    "category": "artifact-bound verification, not portable",
+    "sha256": "f39187d8b6f8cd0242009bf945dba529007c6f5921239cf932e6b4e47e99ab93",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/checkpoint_decoder/provenance_qwen.py",
+    "category": "artifact-bound verification, not portable",
+    "sha256": "f4da7ea555f9f4310a137a8bf9bef03134901b83effeca02538257c11c686af8",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/gemma_mac_nonthinking/run.py",
+    "category": "artifact-bound verification, not portable",
+    "sha256": "f5153eaf2e1467e214bab141fc569ceb0768745d905060fabeeb31e59f5bcd38",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/gemma_mac_nonthinking/analyze.py",
+    "category": "artifact-bound verification, not portable",
+    "sha256": "4e631c7b2eef3f375cc66c2ed4141ef54996a1bb8894f954a1d0bba054c2fb0d",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/taxonomy_finetuning_20261019/verify.py",
+    "category": "artifact-bound verification, not portable",
+    "sha256": "585ac7697300860154606d9cdfc54cceb565f14519c673f71a2d0c7aeb572924",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/htc_clip_local_benchmark_20261017/run_local.py",
+    "category": "artifact-bound HTC-CLIP verification",
+    "sha256": "81bdb7ca79a7dadb799139af75d16a767b2ca069c7908ddb24ae5279f9172fab",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/htc_clip_local_benchmark_20261017/verify_exports.py",
+    "category": "artifact-bound HTC-CLIP verification",
+    "sha256": "3cf81d9fbec2d1e5777a2fdfa10ff5a11f7777c2b6972bed7c2e167ffedd4d2a",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/audit_esaw_20261015/audit_cross_uncertainty.py",
+    "category": "historical private-artifact statistical audit",
+    "sha256": "21a9317ea2b5dafb63a262ab88ad5ebbffd0175db313a669b09aa48b59cb8bd1",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/audit_esaw_20261015/audit_data.py",
+    "category": "historical private-artifact statistical audit",
+    "sha256": "175aff4452542e34ae3db7f581826c43fe6320494d5ca3eb71ec09a22aa736d1",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/audit_esaw_20261015/audit_negative_pools.py",
+    "category": "historical private-artifact statistical audit",
+    "sha256": "58b9d208300154d66529a8279f4f521c9821ab967f5a2ee04f51c89550810f1c",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/audit_esaw_20261015/audit_predictions.py",
+    "category": "historical private-artifact statistical audit",
+    "sha256": "98f0078c58ce11a57fac410fe369e383453e779227c7e88ab8656469f2d4dbf6",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/audit_esaw_20261015/audit_silver.py",
+    "category": "historical private-artifact statistical audit",
+    "sha256": "8ab955a7695ee0962cbacef6de18a6c95490680826c171fa75a1553c288d8dde",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/audit_esaw_20261015/audit_thinking.py",
+    "category": "historical private-artifact statistical audit",
+    "sha256": "32d6489c55b784c046d2dd74f04d1d7640e51c8157c21a14f23cc88cdd18f32f",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "experiments/flat_qwen/protocol.json",
+    "category": "flat control public configuration, no runtime pod state",
+    "sha256": "d33ded55923281d346ea4b5360fc06c521d910a3550f9ae2abee372e095dbc0e",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "experiments/flat_qwen/roles.json",
+    "category": "flat control public configuration, no runtime pod state",
+    "sha256": "64b78508e0a738462cd6f22fd53f44a02217e1360806d1305794a09bf3544eb5",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/gemma_matched/prepare.py",
+    "category": "artifact-bound prompt construction source; superseded paid plan not launched",
+    "sha256": "33dee62551f191a2c0ca1289400fbcd26608169c896e4bac20e373e115a7e4d7",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/paper_closure_20261018/gemma_full_3seed/prepare_full.py",
+    "category": "artifact-bound prompt construction source; superseded paid plan not launched",
+    "sha256": "6e49d7ebc6916cb2d0ca766be36963d22a3067d1acae1b36355b07cf2590ca25",
+    "source_kind": "verbatim source snapshot"
+  }
+]

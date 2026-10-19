@@ -1,0 +1,32 @@
+{
+  "id": "mine_train",
+  "cwd": "retriever",
+  "pythonpath": [
+    "retriever"
+  ],
+  "environment": "retriever; historical ranges, freeze your actual runtime",
+  "scope_note": "",
+  "argv": [
+    "{python}",
+    "-m",
+    "esaw_biencoder.mine_hard_negatives",
+    "--dataset",
+    "{dataset}",
+    "--taxonomy",
+    "{taxonomy}",
+    "--split-file",
+    "{split_file}",
+    "--model",
+    "{phase1_model}",
+    "--split",
+    "train",
+    "--top-n",
+    "20",
+    "--batch-size",
+    "64",
+    "--device",
+    "cuda",
+    "--output",
+    "{work_dir}/hard_negatives.json"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "model": "gemma4:12b",
+  "digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+  "quantization": "Q4_K_M",
+  "ollama_version": "0.34.0",
+  "think": false,
+  "options": {
+    "temperature": 0,
+    "seed": 13,
+    "num_ctx": 16384,
+    "num_predict": 8192
+  },
+  "records": 5000,
+  "candidate_top_k": 10,
+  "prompt_source": "retriever/benchmark_llm_rerank_once.py::single_record_prompt(conservative=False,hierarchical=True)",
+  "candidate_order": "preserved from authorized historical prediction export, not reconstructed from rounded scores",
+  "requests_retries": 0,
+  "statistics": "paired-record bootstrap10000 seed20261018 only after5000records; no interim significance stopping",
+  "status": "completion not certified by this release"
+}

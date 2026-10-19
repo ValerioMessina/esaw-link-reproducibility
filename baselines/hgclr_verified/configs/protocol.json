@@ -1,0 +1,66 @@
+{
+  "protocol_id": "hgclr-esaw-full-20261017-v2-original-taxonomy",
+  "pretrained": "google-bert/bert-base-uncased",
+  "pretrained_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "author_commit": "322a7ff2d83c878534bed25bb288cf4479d00363",
+  "seeds": [
+    3,
+    13,
+    21,
+    42,
+    87
+  ],
+  "learning_rate": 3e-05,
+  "batch_size": 12,
+  "max_length": 512,
+  "gamma": 0.02,
+  "contrastive_weight": 0.05,
+  "temperature": 1.0,
+  "full_warmup_steps": 2000,
+  "full_max_epochs": 1000,
+  "patience": 6,
+  "precision": "float32; TF32 disabled",
+  "cross_attention": "released inherited behavior, unchanged",
+  "selection_A": "first strictly highest validation Macro-F1; patience resets on Micro or Macro improvement",
+  "selection_B": "same weights as A; eight child-logit offsets selected on validation only",
+  "decoder_B_grid": [
+    -12.0,
+    12.0,
+    0.25
+  ],
+  "decoder_B_tie_break": "smallest absolute offset; stable label index at equal adjusted score",
+  "memorization": {
+    "records": 128,
+    "steps": 2000,
+    "warmup_steps": 0,
+    "seed": 20261016,
+    "check_every": 100,
+    "gate_nonroot_micro_f1": 0.95,
+    "gate_exact_nonroot_set": 0.8,
+    "gate_deepest_positive_field_top1": 0.9
+  },
+  "subset": {
+    "records": 2048,
+    "epochs": 2,
+    "warmup_steps": 200,
+    "validation_records": 1024,
+    "seed": 20261016
+  },
+  "budget_usd": 15.0,
+  "diagnostic_budget_usd": 3.0,
+  "test_policy": "No test inference until all five full seeds converge by source early stopping, protocol remains frozen and budget permits export. Existing benchmark is retrospective.",
+  "historical_run": "preserved separately; never overwritten",
+  "source_reproduction_gate": "Open: recovered WoS validation is verified; published test scores not reproduced. No source-score replication claim.",
+  "diagnostic_admission": "Passed fresh full HGCLR author-RNG 6000-update text-dependence diagnostic, memorization pair and full-BERT gradient/update parity. Previous failed runs retained.",
+  "initialization": "Pinned BERT pretrained; fresh HGCLR modules/optimizer for every seed; no reuse of diagnostic checkpoints or seed+100 reseeding.",
+  "dropout_rng": "Corrected unused embedding dropout draw; full-BERT train/gradient/Adam parity verified.",
+  "source_initialization_limit": "Author-style normal initialization distribution for used heads; random draw order of module construction need not reproduce author seed3 bit for bit.",
+  "seed_policy": "Five predeclared manuscript seeds, executed in order; unfinished seeds retained and reported as incomplete. No replacement or best-seed selection.",
+  "source_F1_threshold": "torch.sigmoid(FP32 logits)>0.5, including sigmoid rounding at zero",
+  "taxonomy_policy": "Original taxonomy and label assets preserved byte-for-byte; no description, class or hierarchy edits.",
+  "taxonomy_hashes": {
+    "metadata.json": "00d38b9187515a2cce7e4663338c6d2a8978a1e8d795bfeab05246f8b1311446",
+    "bert_value_dict.pt": "f38974fdbd0029aae828910c8d5f5d130e7a68d9a7e205444f330d1f1e6a93b6",
+    "slot.pt": "536cc60b42df1506d2651302648b3a8f2513138eacc128c2aed4cb2fb133f842"
+  }
+}

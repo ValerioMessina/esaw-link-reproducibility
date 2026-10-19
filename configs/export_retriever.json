@@ -1,0 +1,35 @@
+{
+  "id": "export_retriever",
+  "cwd": "retriever",
+  "pythonpath": [
+    "retriever"
+  ],
+  "environment": "retriever; historical ranges, freeze your actual runtime",
+  "scope_note": "",
+  "argv": [
+    "{python}",
+    "error_analysis_top10.py",
+    "--dataset",
+    "{dataset}",
+    "--taxonomy",
+    "{taxonomy}",
+    "--split-file",
+    "{split_file}",
+    "--model",
+    "{refined_model}",
+    "--split",
+    "test",
+    "--sample-size",
+    "0",
+    "--text-format",
+    "v5",
+    "--top-k",
+    "10",
+    "--batch-size",
+    "32",
+    "--predictions-output",
+    "{work_dir}/predictions.jsonl",
+    "--summary-output",
+    "{work_dir}/field_metrics.json"
+  ]
+}

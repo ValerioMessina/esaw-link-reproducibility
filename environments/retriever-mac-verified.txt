@@ -1,0 +1,9 @@
+# Versions recorded for the new phase-1 Mac reinference, not a historical lock.
+# Python 3.14.3, MPS. Install in a separate environment from HTC.
+torch==2.12.0
+transformers==5.8.1
+sentence-transformers==5.5.0
+# Historical remaining dependencies were not all frozen in the old run.
+accelerate>=1.1.0
+numpy>=1.23.0
+tqdm>=4.66.0

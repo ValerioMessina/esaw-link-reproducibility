@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the ESAW-Link implementations or reproduction tools. Paper metadata will be added when the manuscript is published."
+type: software
+title: "ESAW-Link: Reproducibility Sources"
+authors:
+  - family-names: Messina
+    given-names: Valerio
+version: 0.1.0
+date-released: 2026-10-19
+license: MIT
+abstract: "Source code, ESAW adaptations of hierarchical text classification baselines, configurations and verification tools accompanying the ESAW-Link study. Institutional data, private split identifiers, per-record predictions and model checkpoints are excluded. Incomplete experimental gates are documented explicitly."
+keywords:
+  - ESAW
+  - occupational accident coding
+  - dense retrieval
+  - hierarchical text classification
+  - reproducibility
