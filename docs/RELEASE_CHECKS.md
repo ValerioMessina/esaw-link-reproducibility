@@ -27,3 +27,17 @@ private task streams, per-record outputs, or private split IDs were copied.
 The software release is not an independent reproduction certificate.
 Long-run results and incomplete
 experiments are distinguished in `EXPERIMENT_STATUS.md`.
+
+## Baseline evidence update — 21 October 2026
+
+- Recounted all five private corrected-HGCLR score/prediction exports in the
+  recorded Torch 2.8.0 / Transformers 4.44.2 environment: record/gold identity,
+  ranks, candidate membership, Top1/5/10 and complete-record metrics passed.
+- Rechecked historical HTC-CLIP, HiSR and HyILR checkpoint hashes and saved
+  test-score arithmetic. No new training or inference was launched.
+- Published aggregate evidence and verbatim historical evaluation/recount
+  sources; four complete HGCLR trainings and incomplete seed87 stay distinct.
+- Added offline consistency checks for seed coverage, training completion,
+  denominators, percentage arithmetic and checkpoint/validation-probe provenance.
+- Re-ran the existing offline tests and release scan before publishing. These
+  checks do not certify full five-seed convergence or source-score reproduction.

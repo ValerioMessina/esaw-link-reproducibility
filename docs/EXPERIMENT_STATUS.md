@@ -1,6 +1,8 @@
-# Evidence boundary — release snapshot 19 October 2026
+# Evidence boundary — updated 21 October 2026
 
-These are previously verified aggregate results, not a new run of this release.
+These are verified aggregate results. The 21 October update adds the separate
+retrospective HGCLR test and rechecks the existing HTC tests; it does not launch
+new training or complete the original five-training protocol.
 Metric values below are percentages. No per-record results are distributed.
 
 | Experiment | Verified scope / limit |
@@ -10,10 +12,17 @@ Metric values below are percentages. No per-record results are distributed.
 | HTC-CLIP | Historical adaptation raw Top1 21.1650; fixed-weight validation-calibrated decoder 55.7975, Exact8 4.86 |
 | HiSR | Raw 24.1050; calibrated 57.3575, Exact8 4.90 |
 | HyILR | Raw 25.7025; calibrated 58.4250, Exact8 6.94 |
-| New HGCLR | Five-seed protocol incomplete: 3,13,21,42 complete, 87 stopped; test remains CLOSED; do not report favorable seed13 validation as test |
+| Corrected HGCLR | Five-training protocol still incomplete: 3,13,21,42 complete, 87 stopped. Separate retrospective full tests of all five available validation-selected checkpoints completed on 21 October; see the linked report. Seed13 raw/calibrated Top1 20.4675/56.9350 is one seed, not the five-seed result. |
 | Flat Qwen control | Test Top1 48.1675, Exact8 4.78; single seed, budget stop during epoch3 after two complete epochs |
 | F06 timing ablation | Same-loss explicit-negative API smoke passed; matched ESAW timing training NOT performed; historical cosine-vs-MNRL comparison does not isolate timing |
 | New Gemma Mac full test | Completion not certified in this release; do not infer final metrics from partial outputs; separate from historical full-test Gemma below |
+
+The [21 October baseline report](BASELINE_TEST_20261021.md) and
+[machine-readable aggregate evidence](BASELINE_TEST_20261021.json) list every
+seed and decoder, completion status, Top1/5/10, Exact8, checkpoint hashes and
+verification limits. Historical HTC-CLIP/HiSR/HyILR values above are unchanged.
+The original HGCLR trainer retains its five-completed-training test gate; the
+new retrospective evaluation is explicitly separate.
 
 Calibration uses one child-logit offset per field selected on validation only,
 grid [-12,12] step .25, maximum field Top1, tie smallest absolute offset then

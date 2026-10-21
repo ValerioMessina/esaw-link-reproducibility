@@ -146,8 +146,14 @@ available compute. Remove `--diagnostics-only` for diagnostic admission and
 five-seed full training in the same invocation. Do not manually fabricate
 `diagnostics/gates.json` to bypass failed diagnostics. The trainer refuses CPU,
 retains checkpoints/RNG, and opens test only after all five seeds finish under
-the frozen protocol. The executed study did not complete seed87, so its test
-remains closed. Do not route HGCLR through the three-method score-export helper.
+the frozen protocol. The executed study did not complete seed87, so the original five-training
+confirmatory gate remains closed. A separate retrospective evaluation of all
+five available validation-selected checkpoints was completed on 21 October;
+see [the baseline report](BASELINE_TEST_20261021.md) for its results and limits.
+The original executed evaluation/recount sources are preserved under
+`historical_verification/baseline_test_20261021/`; they require the original
+authorized artifact layout. They do not relax the trainer gate or make the
+three-method score-export helper support HGCLR.
 
 ## 5. Reranking, prompts and silver audit
 

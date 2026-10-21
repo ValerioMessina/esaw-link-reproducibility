@@ -586,5 +586,17 @@
     "category": "artifact-bound prompt construction source; superseded paid plan not launched",
     "sha256": "6e49d7ebc6916cb2d0ca766be36963d22a3067d1acae1b36355b07cf2590ca25",
     "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/baseline_test_20261021/evaluate.py",
+    "category": "Retrospective baseline test and independent recount, 21 October 2026",
+    "sha256": "0ceabd6bc4a1a807cd4db60128747e3dbc9809c147fbeec2e6fe9c20754c00fb",
+    "source_kind": "verbatim source snapshot"
+  },
+  {
+    "path": "historical_verification/baseline_test_20261021/verify_report.py",
+    "category": "Retrospective baseline test and independent recount, 21 October 2026",
+    "sha256": "94dd5bd6fec9d1b4c612e6d828c27fc5b07309885a140bc733ec4173dfdc9936",
+    "source_kind": "verbatim source snapshot"
   }
 ]

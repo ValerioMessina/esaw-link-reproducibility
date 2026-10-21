@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "b40979cf6cc3603fdb2199dcda863f96ab87c0931544f3b969b63253643cb97b",
-      "bytes": 4045
+      "sha256": "8bb1f14c51b64e45ae14d5b70058ccbe44ad390affdc601f8a6876d480ec16cb",
+      "bytes": 4310
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -236,24 +236,34 @@
       "bytes": 1248
     },
     {
+      "path": "docs/BASELINE_TEST_20261021.json",
+      "sha256": "013c766723f3abda845ddb83a4daa2ba3969b8d93e930e524642725ace73ccd6",
+      "bytes": 12780
+    },
+    {
+      "path": "docs/BASELINE_TEST_20261021.md",
+      "sha256": "d2e31a1f7d0c3cf832760922f6a62564de497252892c3f16e151588c7f855775",
+      "bytes": 5471
+    },
+    {
       "path": "docs/DATA_AND_TAXONOMY.md",
       "sha256": "800b12fad340448ed2b1dca7ac044c14c5a1219afb30ba7298a414ef29faf252",
       "bytes": 2681
     },
     {
       "path": "docs/EXPERIMENT_STATUS.md",
-      "sha256": "34137ae25fbbd10cb5b755a5ef27bed1a93d73f9a0704499ed0a9de89824ae26",
-      "bytes": 4181
+      "sha256": "4d8a12e9e6e0549fea1f401d00416c3a85d23e4749d61fe484bb40aad3af82a8",
+      "bytes": 4908
     },
     {
       "path": "docs/RELEASE_CHECKS.md",
-      "sha256": "9c9c1edd9b764ca483880d18b620ad2f6493e0f8125dae06fe34322bff315f04",
-      "bytes": 1741
+      "sha256": "a0be3cd05043b90e6371e9bff7c15ba0f3b4a6f1af698a2c6d77b30dcf1c6ac2",
+      "bytes": 2637
     },
     {
       "path": "docs/REPRODUCING.md",
-      "sha256": "c26ae7141e92e6582c77c9891579ff57c22221153e302648a4f7aeb6121be409",
-      "bytes": 11194
+      "sha256": "d2a026b04dd45e1c7a94d0f8938afe1eb24849f18187620e09a2c33706965c32",
+      "bytes": 11634
     },
     {
       "path": "environments/hgclr-cuda.txt",
@@ -366,6 +376,16 @@
       "bytes": 2575
     },
     {
+      "path": "historical_verification/baseline_test_20261021/evaluate.py",
+      "sha256": "0ceabd6bc4a1a807cd4db60128747e3dbc9809c147fbeec2e6fe9c20754c00fb",
+      "bytes": 5068
+    },
+    {
+      "path": "historical_verification/baseline_test_20261021/verify_report.py",
+      "sha256": "94dd5bd6fec9d1b4c612e6d828c27fc5b07309885a140bc733ec4173dfdc9936",
+      "bytes": 5443
+    },
+    {
       "path": "historical_verification/htc_clip_local_benchmark_20261017/run_local.py",
       "sha256": "81bdb7ca79a7dadb799139af75d16a767b2ca069c7908ddb24ae5279f9172fab",
       "bytes": 9327
@@ -447,8 +467,8 @@
     },
     {
       "path": "provenance/source_manifest.json",
-      "sha256": "2f91e07d498dc8ea662123cd4c4e23a3b6000e68eb7b4de30ba0699a4e3d8223",
-      "bytes": 25487
+      "sha256": "36679e9abb9919d4d47f395b89e731b8d85dec42d39cb581f278c62a6392f5eb",
+      "bytes": 26090
     },
     {
       "path": "retriever/audit_esaw_parallel.py",
@@ -641,6 +661,11 @@
       "bytes": 2045
     },
     {
+      "path": "tests/test_baseline_evidence.py",
+      "sha256": "233acffe7123a95347f419c8fffa45b4078252d6e2e3c2b125cd13cf818a94ae",
+      "bytes": 4071
+    },
+    {
       "path": "tests/test_numeric_protocol.py",
       "sha256": "8c07038ec0cedbc406e70c240488b9f5058e6ef138391217c8c607ec3106ee08",
       "bytes": 2967
@@ -651,7 +676,7 @@
       "bytes": 3344
     }
   ],
-  "scope": "source-only release 0.1.0; Git internals and caches excluded",
+  "scope": "source-only release snapshot updated 21 October 2026; includes verified aggregate baseline evidence; Git internals and caches excluded",
   "license": "MIT; upstream notices preserved",
   "private_data_included": false,
   "checkpoints_included": false

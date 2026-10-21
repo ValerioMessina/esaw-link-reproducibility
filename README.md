@@ -8,6 +8,9 @@ prediction exports, trained checkpoints or credentials are distributed.**
 
 This is a source-code release, not a claim that every experimental gate
 has passed or that the experiments have been independently reproduced from it.
+The 21 October update adds [verified HTC test results](docs/BASELINE_TEST_20261021.md),
+including all five available HGCLR checkpoints (four complete trainings, one
+incomplete), and the original evaluation/recount sources.
 See [experimental status](docs/EXPERIMENT_STATUS.md),
 [reproduction instructions](docs/REPRODUCING.md) and
 [third-party notices](THIRD_PARTY_NOTICES.md).
@@ -21,7 +24,7 @@ See [experimental status](docs/EXPERIMENT_STATUS.md),
 | `baselines/hgclr_verified/` | Corrected HGCLR source and frozen five-seed protocol, separate from historical adapters |
 | `configs/` | Portable executable command specifications; does not provision cloud compute |
 | `scripts/` | Input checks, split generation, training-command launcher, decoder scoring, paired bootstrap and release checks |
-| `tests/` | Synthetic offline checks, without institutional examples |
+| `tests/` | Synthetic offline checks and aggregate-evidence consistency checks, without institutional examples |
 | `environments/` | Separate original declarations / tested runtime versions; not one invented universal lockfile |
 | `historical_launchers/` | Original launchers for provenance; contain machine-specific paths and artifact packaging, do not use as portable entry points |
 | `historical_verification/` | Original artifact-bound verification sources; require authorized private inputs at their original layout |
