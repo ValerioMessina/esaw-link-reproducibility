@@ -11,6 +11,8 @@ has passed or that the experiments have been independently reproduced from it.
 The 21 October update adds [verified HTC test results](docs/BASELINE_TEST_20261021.md),
 including all five available HGCLR checkpoints (four complete trainings, one
 incomplete), and the original evaluation/recount sources.
+The 24 October update adds the [matched role-conditioning ablation](experiments/role_conditioning/README.md):
+verified 1+1-epoch results, recovered training source and a private-workspace launcher.
 See [experimental status](docs/EXPERIMENT_STATUS.md),
 [reproduction instructions](docs/REPRODUCING.md) and
 [third-party notices](THIRD_PARTY_NOTICES.md).

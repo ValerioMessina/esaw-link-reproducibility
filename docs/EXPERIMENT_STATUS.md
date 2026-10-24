@@ -1,4 +1,4 @@
-# Evidence boundary — updated 21 October 2026
+# Evidence boundary — updated 24 October 2026
 
 These are verified aggregate results. The 21 October update adds the separate
 retrospective HGCLR test and rechecks the existing HTC tests; it does not launch
@@ -14,6 +14,7 @@ Metric values below are percentages. No per-record results are distributed.
 | HyILR | Raw 25.7025; calibrated 58.4250, Exact8 6.94 |
 | Corrected HGCLR | Five-training protocol still incomplete: 3,13,21,42 complete, 87 stopped. Separate retrospective full tests of all five available validation-selected checkpoints completed on 21 October; see the linked report. Seed13 raw/calibrated Top1 20.4675/56.9350 is one seed, not the five-seed result. |
 | Flat Qwen control | Test Top1 48.1675, Exact8 4.78; single seed, budget stop during epoch3 after two complete epochs |
+| Role-conditioning ablation | Completed matched 1+1-epoch retraining, seed13, original 5000-record test. Role-on/off Top1 61.6275/59.3150; delta +2.3125 pp, paired 95% CI [1.9050, 2.7125]. Single seed; common narrative crop; arm-specific mining included. See [source and aggregate evidence](../experiments/role_conditioning/README.md). |
 | F06 timing ablation | Same-loss explicit-negative API smoke passed; matched ESAW timing training NOT performed; historical cosine-vs-MNRL comparison does not isolate timing |
 | New Gemma Mac full test | Completion not certified in this release; do not infer final metrics from partial outputs; separate from historical full-test Gemma below |
 

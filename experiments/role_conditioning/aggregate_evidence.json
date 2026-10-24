@@ -1,0 +1,401 @@
+{
+  "training_seed": 13,
+  "test_records": 5000,
+  "schedule": "1 alignment epoch + 1 refinement epoch",
+  "metrics": {
+    "frozen": {
+      "role_on": {
+        "top1_pct": 10.07,
+        "record_all8_top1_pct": 0.0,
+        "top5_pct": 32.1925,
+        "record_all8_top5_pct": 0.16,
+        "top10_pct": 48.915,
+        "record_all8_top10_pct": 2.22,
+        "per_field": {
+          "COD_LOC": {
+            "top1_pct": 32.7,
+            "top5_pct": 53.44,
+            "top10_pct": 62.760000000000005
+          },
+          "COD_LAV": {
+            "top1_pct": 9.6,
+            "top5_pct": 51.88,
+            "top10_pct": 67.28
+          },
+          "COD_ATV": {
+            "top1_pct": 3.84,
+            "top5_pct": 19.919999999999998,
+            "top10_pct": 49.76
+          },
+          "COD_MAT_ATV": {
+            "top1_pct": 5.18,
+            "top5_pct": 19.2,
+            "top10_pct": 30.94
+          },
+          "COD_DEV": {
+            "top1_pct": 1.4000000000000001,
+            "top5_pct": 21.9,
+            "top10_pct": 39.26
+          },
+          "COD_MAT_DEV": {
+            "top1_pct": 7.3999999999999995,
+            "top5_pct": 24.240000000000002,
+            "top10_pct": 38.279999999999994
+          },
+          "COD_CON": {
+            "top1_pct": 11.3,
+            "top5_pct": 40.1,
+            "top10_pct": 60.940000000000005
+          },
+          "COD_MAT_CON": {
+            "top1_pct": 9.139999999999999,
+            "top5_pct": 26.86,
+            "top10_pct": 42.1
+          }
+        },
+        "material_top1_pct": 7.24
+      },
+      "role_off": {
+        "top1_pct": 7.445,
+        "record_all8_top1_pct": 0.0,
+        "top5_pct": 22.5175,
+        "record_all8_top5_pct": 0.06,
+        "top10_pct": 35.485,
+        "record_all8_top10_pct": 0.54,
+        "per_field": {
+          "COD_LOC": {
+            "top1_pct": 18.22,
+            "top5_pct": 36.66,
+            "top10_pct": 48.02
+          },
+          "COD_LAV": {
+            "top1_pct": 10.32,
+            "top5_pct": 26.66,
+            "top10_pct": 42.24
+          },
+          "COD_ATV": {
+            "top1_pct": 4.88,
+            "top5_pct": 25.840000000000003,
+            "top10_pct": 44.22
+          },
+          "COD_MAT_ATV": {
+            "top1_pct": 4.68,
+            "top5_pct": 15.920000000000002,
+            "top10_pct": 24.560000000000002
+          },
+          "COD_DEV": {
+            "top1_pct": 10.08,
+            "top5_pct": 31.580000000000002,
+            "top10_pct": 46.28
+          },
+          "COD_MAT_DEV": {
+            "top1_pct": 4.18,
+            "top5_pct": 14.280000000000001,
+            "top10_pct": 22.6
+          },
+          "COD_CON": {
+            "top1_pct": 3.2,
+            "top5_pct": 16.2,
+            "top10_pct": 34.98
+          },
+          "COD_MAT_CON": {
+            "top1_pct": 4.0,
+            "top5_pct": 13.0,
+            "top10_pct": 20.979999999999997
+          }
+        },
+        "material_top1_pct": 4.286666666666666
+      }
+    },
+    "alignment": {
+      "role_on": {
+        "top1_pct": 48.4875,
+        "record_all8_top1_pct": 3.64,
+        "top5_pct": 76.7425,
+        "record_all8_top5_pct": 26.540000000000003,
+        "top10_pct": 85.8275,
+        "record_all8_top10_pct": 46.1,
+        "per_field": {
+          "COD_LOC": {
+            "top1_pct": 62.6,
+            "top5_pct": 84.74000000000001,
+            "top10_pct": 89.78
+          },
+          "COD_LAV": {
+            "top1_pct": 59.019999999999996,
+            "top5_pct": 84.5,
+            "top10_pct": 92.28
+          },
+          "COD_ATV": {
+            "top1_pct": 45.34,
+            "top5_pct": 79.36,
+            "top10_pct": 89.68
+          },
+          "COD_MAT_ATV": {
+            "top1_pct": 41.52,
+            "top5_pct": 71.06,
+            "top10_pct": 81.06
+          },
+          "COD_DEV": {
+            "top1_pct": 45.64,
+            "top5_pct": 74.83999999999999,
+            "top10_pct": 85.7
+          },
+          "COD_MAT_DEV": {
+            "top1_pct": 41.28,
+            "top5_pct": 70.08,
+            "top10_pct": 80.34
+          },
+          "COD_CON": {
+            "top1_pct": 54.08,
+            "top5_pct": 80.92,
+            "top10_pct": 88.56
+          },
+          "COD_MAT_CON": {
+            "top1_pct": 38.42,
+            "top5_pct": 68.44,
+            "top10_pct": 79.22
+          }
+        },
+        "material_top1_pct": 40.406666666666666
+      },
+      "role_off": {
+        "top1_pct": 44.95,
+        "record_all8_top1_pct": 3.5000000000000004,
+        "top5_pct": 73.7375,
+        "record_all8_top5_pct": 25.0,
+        "top10_pct": 83.9425,
+        "record_all8_top10_pct": 43.56,
+        "per_field": {
+          "COD_LOC": {
+            "top1_pct": 56.89999999999999,
+            "top5_pct": 82.39999999999999,
+            "top10_pct": 88.78
+          },
+          "COD_LAV": {
+            "top1_pct": 57.620000000000005,
+            "top5_pct": 82.04,
+            "top10_pct": 90.96
+          },
+          "COD_ATV": {
+            "top1_pct": 42.58,
+            "top5_pct": 77.86,
+            "top10_pct": 89.28
+          },
+          "COD_MAT_ATV": {
+            "top1_pct": 38.019999999999996,
+            "top5_pct": 66.82000000000001,
+            "top10_pct": 77.9
+          },
+          "COD_DEV": {
+            "top1_pct": 42.72,
+            "top5_pct": 71.76,
+            "top10_pct": 84.06
+          },
+          "COD_MAT_DEV": {
+            "top1_pct": 38.4,
+            "top5_pct": 66.82000000000001,
+            "top10_pct": 77.84
+          },
+          "COD_CON": {
+            "top1_pct": 48.6,
+            "top5_pct": 78.42,
+            "top10_pct": 86.72
+          },
+          "COD_MAT_CON": {
+            "top1_pct": 34.760000000000005,
+            "top5_pct": 63.78,
+            "top10_pct": 76.0
+          }
+        },
+        "material_top1_pct": 37.059999999999995
+      }
+    },
+    "refinement": {
+      "role_on": {
+        "top1_pct": 61.627500000000005,
+        "record_all8_top1_pct": 8.5,
+        "top5_pct": 91.7425,
+        "record_all8_top5_pct": 61.46,
+        "top10_pct": 96.485,
+        "record_all8_top10_pct": 81.04,
+        "per_field": {
+          "COD_LOC": {
+            "top1_pct": 71.24000000000001,
+            "top5_pct": 94.72,
+            "top10_pct": 97.76
+          },
+          "COD_LAV": {
+            "top1_pct": 69.28,
+            "top5_pct": 95.04,
+            "top10_pct": 97.8
+          },
+          "COD_ATV": {
+            "top1_pct": 60.419999999999995,
+            "top5_pct": 91.60000000000001,
+            "top10_pct": 97.38
+          },
+          "COD_MAT_ATV": {
+            "top1_pct": 57.4,
+            "top5_pct": 89.53999999999999,
+            "top10_pct": 94.14
+          },
+          "COD_DEV": {
+            "top1_pct": 58.24,
+            "top5_pct": 90.66,
+            "top10_pct": 97.11999999999999
+          },
+          "COD_MAT_DEV": {
+            "top1_pct": 54.98,
+            "top5_pct": 89.4,
+            "top10_pct": 95.17999999999999
+          },
+          "COD_CON": {
+            "top1_pct": 64.53999999999999,
+            "top5_pct": 93.38,
+            "top10_pct": 97.44
+          },
+          "COD_MAT_CON": {
+            "top1_pct": 56.92,
+            "top5_pct": 89.60000000000001,
+            "top10_pct": 95.06
+          }
+        },
+        "material_top1_pct": 56.43333333333334
+      },
+      "role_off": {
+        "top1_pct": 59.315,
+        "record_all8_top1_pct": 7.720000000000001,
+        "top5_pct": 90.7475,
+        "record_all8_top5_pct": 59.12,
+        "top10_pct": 96.1175,
+        "record_all8_top10_pct": 80.32000000000001,
+        "per_field": {
+          "COD_LOC": {
+            "top1_pct": 71.08,
+            "top5_pct": 94.38,
+            "top10_pct": 97.48
+          },
+          "COD_LAV": {
+            "top1_pct": 67.54,
+            "top5_pct": 94.24,
+            "top10_pct": 97.98
+          },
+          "COD_ATV": {
+            "top1_pct": 58.24,
+            "top5_pct": 90.34,
+            "top10_pct": 97.08
+          },
+          "COD_MAT_ATV": {
+            "top1_pct": 53.080000000000005,
+            "top5_pct": 87.4,
+            "top10_pct": 93.30000000000001
+          },
+          "COD_DEV": {
+            "top1_pct": 57.220000000000006,
+            "top5_pct": 90.24,
+            "top10_pct": 97.16
+          },
+          "COD_MAT_DEV": {
+            "top1_pct": 53.779999999999994,
+            "top5_pct": 88.0,
+            "top10_pct": 94.0
+          },
+          "COD_CON": {
+            "top1_pct": 63.519999999999996,
+            "top5_pct": 92.88,
+            "top10_pct": 97.44
+          },
+          "COD_MAT_CON": {
+            "top1_pct": 50.06,
+            "top5_pct": 88.5,
+            "top10_pct": 94.5
+          }
+        },
+        "material_top1_pct": 52.306666666666665
+      }
+    }
+  },
+  "paired_comparisons": {
+    "results": {
+      "frozen": {
+        "top1": {
+          "role_on_minus_off_pp": 2.625,
+          "paired_record_bootstrap95": [
+            2.2825,
+            2.9825
+          ]
+        },
+        "exact8": {
+          "role_on_minus_off_pp": 0.0,
+          "paired_record_bootstrap95": [
+            0.0,
+            0.0
+          ]
+        },
+        "material_top1": {
+          "role_on_minus_off_pp": 2.9533333333333323,
+          "paired_record_bootstrap95": [
+            2.3866666666666663,
+            3.5066666666666664
+          ]
+        }
+      },
+      "alignment": {
+        "top1": {
+          "role_on_minus_off_pp": 3.5374999999999996,
+          "paired_record_bootstrap95": [
+            3.1075,
+            3.9425000000000003
+          ]
+        },
+        "exact8": {
+          "role_on_minus_off_pp": 0.13999999999999999,
+          "paired_record_bootstrap95": [
+            -0.24,
+            0.52
+          ]
+        },
+        "material_top1": {
+          "role_on_minus_off_pp": 3.3466666666666667,
+          "paired_record_bootstrap95": [
+            2.5666666666666664,
+            4.153333333333332
+          ]
+        }
+      },
+      "refinement": {
+        "top1": {
+          "role_on_minus_off_pp": 2.3125,
+          "paired_record_bootstrap95": [
+            1.905,
+            2.7125
+          ]
+        },
+        "exact8": {
+          "role_on_minus_off_pp": 0.7799999999999999,
+          "paired_record_bootstrap95": [
+            0.2,
+            1.3599999999999999
+          ]
+        },
+        "material_top1": {
+          "role_on_minus_off_pp": 4.126666666666666,
+          "paired_record_bootstrap95": [
+            3.2731666666666657,
+            4.953333333333333
+          ]
+        }
+      }
+    },
+    "replicates": 10000,
+    "seed": 20261021,
+    "limitation": "One matched training seed; CI conditional on fixed trained models; common-evidence crop differs from historical paper exports. No model/backbone superiority claim."
+  },
+  "limitations": [
+    "Single training seed; bootstrap does not estimate training-seed variability.",
+    "Role information removed jointly from queries and candidate documents.",
+    "Arm-specific mining is part of the pipeline effect.",
+    "Common narrative crop, cached MNRL and shorter schedule differ from historical main results."
+  ]
+}

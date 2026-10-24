@@ -1,0 +1,14 @@
+{
+  "original_suite_sha256": "9687da4817dc4f91f244c733102938ef24193bc10f5668ced3c5f28b671b301a",
+  "original_protocol_sha256": "223bb0562be1030e990a929ff5c044df4014ba980a085f5a6afa5dd2535fed1b",
+  "source_date": "2026-10-21",
+  "completed_date": "2026-10-22",
+  "source_files": {
+    "retriever/esaw_biencoder/data.py": "18454ac03f7bc953bb1028a668e6116ea92551c4afa1bd687ac580a7ca80fc4a",
+    "retriever/esaw_biencoder/schema.py": "1faff41b22a3b9ae9a4f0097b24ecabd78d61907a26e5259010b88a288fa16bd",
+    "retriever/esaw_biencoder/evaluate.py": "e81589466f7e7b038e54c9c9d7d83212c2ac87e4da782c73b76b81406a266529",
+    "retriever/esaw_biencoder/retrieval.py": "3234beae9da1dbe7e0f3ff919427b6927f580e9f9f0839e0dfab5fb95f2de45a"
+  },
+  "public_protocol_edits": "Only budget/instance metadata removed and complete-record recall names clarified; scientific schedule unchanged.",
+  "historical_suite": "Byte-for-byte source; retains old RR headings. Portable launcher corrects headings in the generated Markdown report only."
+}

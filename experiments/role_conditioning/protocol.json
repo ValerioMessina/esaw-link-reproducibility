@@ -1,0 +1,63 @@
+{
+  "id": "esaw-role-ablation-20261021-v2-budget-matched",
+  "objective": "Estimate the contribution of explicit role conditioning with a matched Qwen3-Embedding-0.6B backbone, dataset, optimizer, training-example order and training budget.",
+  "arms": {
+    "role_on": "Original V5 field title and role definition on query and candidate documents.",
+    "role_off": "Remove field title and role definition on both query and candidate documents; retain narrative, class label, parent label, official code, and field-admissible candidate inventory. Shared material-agent candidates become identical."
+  },
+  "common_evidence": "Crop each narrative once with the base tokenizer to 256 minus maximum V5 role-prefix token length minus 8. Both arms receive the exact same crop. Same 256-token model limit; verify role-on strings fit. This controls the extra narrative that could otherwise be exposed by removing prefixes.",
+  "data": "Original fixed seed13 split: 40000 train, 5000 validation, 5000 test. Identical split source hash checked before use. No public upload of narratives or record-level outputs.",
+  "seed": 13,
+  "seed_scope": "Single matched training seed. Do not report cross-seed standard deviations.",
+  "training": {
+    "alignment": {
+      "epochs": 1,
+      "effective_batch_size": 80,
+      "learning_rate": 2e-05,
+      "loss": "CachedMultipleNegativesRankingLoss",
+      "cache_microbatch_size": 8
+    },
+    "refinement": {
+      "epochs": 1,
+      "effective_batch_size": 24,
+      "learning_rate": 8e-06,
+      "loss": "CachedMultipleNegativesRankingLoss",
+      "cache_microbatch_size": 8,
+      "hard_negatives_per_positive": 4,
+      "hardness_mode": "hard_negatives",
+      "hardness_strength": 0.2
+    },
+    "optimizer": "Adafactor, relative_step=False, scale_parameter=False, warmup_init=False",
+    "dtype": "bfloat16",
+    "warmup_ratio": 0.1,
+    "schedule": "linear decay after warmup",
+    "gradient_clip_norm": 1,
+    "trainable_parameters": "full encoder",
+    "checkpoint_selection": "fixed final epoch, not validation- or test-selected",
+    "order": "Same deterministic seed13 record-field permutation in both arms; verify order hash and optimizer update count.",
+    "negative_mining": "Each arm mines 20 highest-scoring non-gold candidates using its own alignment checkpoint and TRAIN ONLY; refinement takes first 4, same inventory and policy. The refinement comparison estimates total pipeline effect, including arm-specific mining."
+  },
+  "evaluation": {
+    "stages": [
+      "frozen",
+      "alignment",
+      "refinement"
+    ],
+    "primary": "Role-on minus role-off test mean field Top1 after refinement",
+    "secondary": [
+      "Exact8",
+      "Top5",
+      "Top10",
+      "All8@5",
+      "All8@10",
+      "per-field Top1",
+      "mean Top1 on three material-agent fields"
+    ],
+    "ranking": "Cosine similarity over identical field-admissible candidate identities. Stable taxonomy-order tie break.",
+    "uncertainty": "10000 paired record bootstrap replicates, seed20261021, all eight fields and two arms kept together; conditional on fixed single-seed models. Exploratory secondary intervals without multiplicity adjustment.",
+    "prohibition": "No tuning, checkpoint selection, seed selection, or training-order changes based on test performance. Frozen-test access allowed only after this protocol and implementation hashes are frozen."
+  },
+  "execution_order": "Finish both matched alignment arms before either refinement so budget exhaustion preserves a matched comparison.",
+  "limits": "New matched retraining; common-evidence cropping, cached MNRL and controlled RNG differ from historical paper exports. Cannot reuse historical ESAW-Link scores as this experiment's role-on control. Does not compare backbones or separate query-side from document-side role effects. Role-off shared-inventory fields necessarily receive identical candidate rankings, a structural consequence of removing all role information. Budget-matched alignment uses1epoch rather than historical3; this ablation estimates the role effect under the declared shorter schedule, not the exact historical61.75% run.",
+  "budget_reason": "Compute budget constraints: both arms use one alignment epoch and one refinement epoch. Cloud account, billing and instance metadata omitted."
+}
